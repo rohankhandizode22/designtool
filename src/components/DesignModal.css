@@ -1,0 +1,145 @@
+/* src/ModalComponent.css */
+
+  .sidebar {
+    /* width: 30%; */
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+    max-height: 500px;
+    overflow: auto;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .sidebar h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #f4f4f4;
+    /* background-image: url(''); */
+    /* transition: background 0.3s; */
+  }
+  
+  .sidebar li:hover {
+    background: #e0e0e0;
+  }
+  
+  .category-image {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .main-area {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .selected-image {
+    /* max-width: 100%; */
+   width: 170px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  .default-message {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid #bfbfbf;
+    border-radius: 50%; */
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+  }
+  
+  .default-message img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .default-message h2 {
+    font-size: 26px;
+    text-align: center;
+    width: 450px;
+  }
+  
+
+  
+.design-list {
+    display: flex;
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.design-list__content {
+    /* bottom: 0px; */
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+
+.start-a-search, .start-a-search__image {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.start-a-search {
+    height: 100%;
+    padding-right: 1rem;
+    position: relative;
+}
+
+
+.start-a-search__image {
+    border: 1px solid #bfbfbf;
+    border-radius: 50%;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+}
+
+.start-a-search__image>h2 {
+    font-size: 26px;
+    text-align: center;
+    width: 250px;
+}
+
+.form-control:focus{
+  box-shadow: none !important;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
